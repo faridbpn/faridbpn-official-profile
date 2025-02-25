@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     ScrollReveal().reveal('#homeDescription', { 
-        delay: 500, 
+        delay: 300, 
         duration: 1000, 
         origin: 'left', 
         distance: '50px',
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     ScrollReveal().reveal('#quoteButton', { 
-        delay: 600, 
+        delay: 300, 
         duration: 1000, 
         scale: 0.8, 
         opacity: 0,
@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", function () {
     ScrollReveal().reveal('#achievementsTitle', { delay: 300, duration: 1000, origin: 'top', distance: '50px' });
     ScrollReveal().reveal('#achievementsDescription', { delay: 400, duration: 1000, origin: 'top', distance: '50px' });
 
-    ScrollReveal().reveal('#achievement1', { delay: 500, duration: 1000, origin: 'left', distance: '50px' });
-    ScrollReveal().reveal('#achievement2', { delay: 600, duration: 1000, scale: 0.8, opacity: 0 });
+    ScrollReveal().reveal('#achievement1', { delay: 300, duration: 1000, origin: 'left', distance: '50px' });
+    ScrollReveal().reveal('#achievement2', { delay: 300, duration: 1000, scale: 0.8, opacity: 0 });
     ScrollReveal().reveal('#achievement3', { delay: 700, duration: 1000, origin: 'right', distance: '50px' });
 });
 
@@ -118,11 +118,11 @@ ScrollReveal().reveal('#aboutText', {
 });
 
 ScrollReveal().reveal('#buttonsSection', {
-    delay: 500,
+    delay: 300,
     distance: '50px',
     origin: 'bottom',
     opacity: 0,
-    duration: 1500,
+    duration: 1300,
     easing: 'ease-in-out'
 });
 
@@ -155,16 +155,16 @@ ScrollReveal().reveal('#projectItem2', {
 });
 
 ScrollReveal().reveal('#projectItem3', {
-    delay: 500,
+    delay: 300,
     distance: '50px',
     origin: 'bottom',
     opacity: 0,
-    duration: 1600,
+    duration: 1300,
     easing: 'ease-in-out'
 });
 
 ScrollReveal().reveal('#seeMoreButton', {
-    delay: 600,
+    delay: 300,
     distance: '50px',
     origin: 'bottom',
     opacity: 0,
@@ -204,11 +204,11 @@ ScrollReveal().reveal('#timelineItem2', {
 });
 
 ScrollReveal().reveal('#timelineItem3', {
-    delay: 500,
+    delay: 300,
     distance: '50px',
     origin: 'bottom',
     opacity: 0,
-    duration: 1600,
+    duration: 1300,
     easing: 'ease-in-out',
     reset: true,
 });
@@ -244,7 +244,7 @@ ScrollReveal().reveal('#blogCard2', {
 });
 
 ScrollReveal().reveal('#blogCard3', {
-    delay: 500,
+    delay: 300,
     distance: '50px',
     origin: 'bottom',
     opacity: 0,
@@ -254,11 +254,11 @@ ScrollReveal().reveal('#blogCard3', {
 });
 
 ScrollReveal().reveal('#seeMoreBtn', {
-    delay: 600,
+    delay: 300,
     distance: '50px',
     origin: 'bottom',
     opacity: 0,
-    duration: 1600,
+    duration: 1300,
     easing: 'ease-in-out',
     reset: true,
 });
