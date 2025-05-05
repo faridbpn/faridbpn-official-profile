@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faridbpn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="icon" type="image/x-icono" sizes="32x32" href="images/logo/masbro.png">
+</head>
+<body>
+
+ <!-- navbar start -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">faridbpn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#journey">Journey</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificate">Certificate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- navbar end -->
+
+<!-- hero section start -->
+<section class="intro-section d-flex align-items-center mt-5" id="homeSection">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Section -->
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 id="homeTitle">Hello, I'm <span style="color: #ff7f11;">Muhammad Farid</span></h1>
+                <h2 id="homeSubtitle">Software Engineer from Indonesia</h2>
+                <p id="homeDescription">
+                    Junior Software Developer passionate to learn more about following technology updates, also UI/UX design.
+                    I love meeting new people and building connections. My main focus is full-stack development, while I also explore
+                    data analysis and DevOps engineering as a hobby.
+                </p>
+                <div class="container text-center mt-5">
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-custom me-2" id="quoteButton">Get a Quote</a>
+                    </div>
+                    <div id="notification" class="mt-3"></div>
+                </div>        
+            </div>
+            <!-- Image Section -->
+            <div class="col-lg-6 text-center mt-5 mt-lg-0 position-relative">
+                <img src="images/farid.jpg" alt="Muhammad Farid" class="img-fluid rounded-3 mengambang" id="homeImage" style="width: 300px;">
+                <!-- Info Cards -->
+                <div class="position-absolute" style="bottom: 10%; left: 70%;" id="homeInfoCard">
+                    <div class="info-card text-center">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hero section end -->
+
+
+<!-- data card random start -->
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <h2 class="section-title" id="achievementsTitle">My Achievements</h2>
+        <p class="section-description" id="achievementsDescription">I'm proud to showcase our journey of success and excellence.</p>
+    </div>
+    <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card text-center p-4" id="achievement1">
+                <div class="card-icon">
+                    <i class="bi bi-award"></i>
+                </div>
+                <h4 class="my-2">2+</h4>
+                <p>Years of Experience</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card text-center p-4" id="achievement2">
+                <div class="card-icon">
+                    <i class="bi bi-check-circle"></i>
+                </div>
+                <h4 class="my-2">50+</h4>
+                <p>Completed Projects</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card text-center p-4" id="achievement3">
+                <div class="card-icon">
+                    <i class="bi bi-people"></i>
+                </div>
+                <h4 class="my-2">10+</h4>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- data card random end -->
+
+
+<!-- about section start -->
+<section id="about">
+    <div class="container hero-section">
+        <div class="row align-items-center">
+            <!-- Carousel Section -->
+            <div class="col-md-6 text-center" id="carouselSection">
+                <!-- Bootstrap Carousel -->
+                <div id="himiCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/gdg.jpg" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/lpk.jpg" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/undip.jpg" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#himiCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#himiCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Text Section -->
+            <div class="col-md-6 text-center text-md-start" id="textSection">
+                <h4 class="text-uppercase mb-3 fw-bolder">About Me</h4>
+                <h1 class="fw-bold">Need a <span class="highlight">Software Engineer?</span><br>I Can Help You!</h1>
+                <p class="mt-3" id="aboutText">
+                    Hi! I’m Muhammad Farid, a junior software developer with a strong passion for creating seamless and efficient digital experiences. I have a deep interest in full-stack development, UI/UX design, and continuously learning about the latest advancements in technology. Over the years, I’ve honed my skills in various frameworks and tools, including Laravel, Node.js, and Three.js, allowing me to develop dynamic and scalable applications.
+                </p>
+                <div class="mt-4" id="buttonsSection">
+                    <!-- Read More Button -->
+                    <button class="btn btn-orange me-2" data-bs-toggle="modal" data-bs-target="#aboutModal">Read More</button>
+                    <!-- Download CV Button -->
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cvModal">Download My CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section end -->
+
+<!-- Modal for Read More -->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aboutModalLabel">🐨More About Me🐨</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Hi! I’m Muhammad Farid, a junior software developer with a strong passion for creating seamless and efficient digital experiences. I have a deep interest in full-stack development, UI/UX design, and continuously learning about the latest advancements in technology. Over the years, I’ve honed my skills in various frameworks and tools, including Laravel, Node.js, and Three.js, allowing me to develop dynamic and scalable applications.
+
+                    Beyond coding, I thrive in collaborative environments where I can share ideas, work with teams, and build meaningful connections. I love engaging in activities that enable me to meet new people, whether through tech events, communities, or public speaking engagements. As part of my continuous growth, I also explore data analytics and DevOps engineering as a hobby, expanding my understanding of how different aspects of technology work together.
+                    
+                    I’m always eager to take on new challenges, contribute to the developer community, and create impactful solutions that make a difference.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for CV Download -->
+<div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cvModalLabel">Download My CV</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p>You can view or download my CV from the link below:</p>
+                <a href="pdf/cv.pdf" class="btn btn-oren mb-3" download>Download CV</a>
+                <br>
+                <a href="https://www.linkedin.com/posts/muhammad-farid-441680288_my-portfolio-showcases-a-blend-of-technology-activity-7242458290771673089-OvdL?utm_source=share&utm_medium=member_desktop" class="btn btn-link" target="_blank">View Online</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about section end -->
+
+  <!-- skills start -->
+  <section class="skills-section text-center py-5 bg-light">
+    <div class="container">
+      <div class="skills-marquee">
+        <div class="skills-marquee-content">
+          <!-- Ikon Set 1 -->
+          <img src="images/logo/bootsrap.png" alt="HTML">
+          <img src="images/logo/canva.png" alt="CSS">
+          <img src="images/logo/dart.png" alt="JavaScript">
+          <img src="images/logo/figma.png" alt="React.js">
+          <img src="images/logo/firebse.png" alt="Bootstrap">
+          <img src="images/logo/flutter.png" alt="Node.js">
+          <img src="images/logo/git.png" alt="Laravel">
+          <img src="images/logo/html.png" alt="Flutter">
+          <img src="images/logo/js.png" alt="Python">
+          <img src="images/logo/laravel.png" alt="Dart">
+          <img src="images/logo/node.png" alt="SQL">
+          <img src="images/logo/react.png" alt="SQL">
+
+          <!-- Duplikasi Ikon Set 1 -->
+          <img src="images/logo/bootsrap.png" alt="HTML">
+          <img src="images/logo/canva.png" alt="CSS">
+          <img src="images/logo/dart.png" alt="JavaScript">
+          <img src="images/logo/figma.png" alt="React.js">
+          <img src="images/logo/firebse.png" alt="Bootstrap">
+          <img src="images/logo/flutter.png" alt="Node.js">e
+          <img src="images/logo/git.png" alt="Laravel">
+          <img src="images/logo/html.png" alt="Flutter">
+          <img src="images/logo/js.png" alt="Python">
+          <img src="images/logo/laravel.png" alt="Dart">
+          <img src="images/logo/node.png" alt="SQL">
+          <img src="images/logo/react.png" alt="SQL">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- skills end -->
+
+
+<!-- Portfolio Section start -->
+ <!-- Portfolio Section -->
+ <section id="project" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold" id="projectsTitle">My Projects</h2>
+        <div class="row">
+            <!-- Portfolio Item 1 -->
+            <div class="col-md-4 mb-4" id="projectItem1">
+                <div class="card portfolio-item">
+                    <img src="gambarproject/angoodecofee.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Angoode Coffee</h5>
+                        <p class="card-text">A website for coffee enthusiasts in Jombang.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="col-md-4 mb-4" id="projectItem2">
+                <div class="card portfolio-item">
+                    <img src="gambarproject/himi.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Himi Organization</h5>
+                        <p class="card-text">First Japanese Project, Introduce every cool stuff from Himi city Toyama prefecture</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="col-md-4 mb-4" id="projectItem3">
+                <div class="card portfolio-item">
+                    <img src="gambarproject/salut.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Salut Campus</h5>
+                        <p class="card-text">A Platform that shows y'all what's inside Salut Beriman University is.</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- See More Button -->
+        <div class="text-start mt-4" id="seeMoreButton">
+            <a href="project.html" class="btn btn-secondary">See More</a>
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Project 1 -->
+<div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">Angoode Coffee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Angoode Coffee is a responsive website designed for coffee lovers to explore and order their favorite coffee blends.</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+                <p><strong>Main features:</strong></p>
+                <ul>
+                    <li>Modern and responsive design</li>
+                    <li>Intuitive navigation</li>
+                    <li>Comprehensive information on coffee menu and ordering</li>
+                    <li>Optimized performance for fast access</li>
+                </ul>
+                <a href="https://anggodecofee.netlify.app/" target="_blank">
+                    <div class="btn btn-primary">
+                        Visit Our Website
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for Project 2 -->
+<div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">Himi City</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>A website that describe how was beautiful himi city are, including recomendation and tourism spots on himi city "ninja hatori home town"</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+                <p><strong>Main features:</strong></p>
+                <ul>
+                    <li>Modern and responsive design</li>
+                    <li>Intuitive navigation</li>
+                    <li>Comprehensive information on city</li>
+                    <li>dual langguage</li>
+                    <li>Optimized performance for fast access</li>
+                </ul>
+                <a href="https://hellohimi.vercel.app/" target="_blank">
+                    <div class="btn btn-primary">
+                        Visit Our Website
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Project 3 -->
+<div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">Salut Beriman Balikapapn</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Salut beriman is part of Universitas Terbuka indonesia and this Website Descripbe all cool stuff on this university including all major and program on it</p>
+                <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Main features:</strong></p>
+                <ul>
+                    <li>Modern and responsive design</li>
+                    <li>Intuitive navigation</li>
+                    <li>Comprehensive information on city</li>
+                    <li>Optimized performance for fast access</li>
+                </ul>
+                <a href="https://salutberimanbalikpapan.netlify.app/" target="_blank">
+                    <div class="btn btn-primary">
+                        Visit Our Website
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Section end -->
+
+<!-- timeline start -->
+<section id="journey">
+    <div class="container">
+        <h1 class="text-center my-5 fw-bolder" id="journeyTitle">My Journey Recap</h1>
+
+        <!-- Item 1 -->
+        <div class="timeline-item" id="timelineItem1">
+            <div class="timeline-circle p-4">2023</div>
+            <div class="timeline-content">
+                <h4 class="fw-bold">Freshman</h4>
+                <p>I started my journey in the IT world by learning HTML, CSS, and JavaScript, and since then, I have been striving to develop my skills. I also actively seek out various online communities to expand my network and build connections that can support my career development.</p>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="timeline-item" id="timelineItem2">
+            <div class="timeline-circle">2024</div>
+            <div class="timeline-content">
+                <h4 class="fw-bold">Getting Active And Expand My Capability</h4>
+                <p>Over time, I began to understand more deeply the various roles and divisions that exist in the IT world. Not only limited to the learning process, I also began to share the knowledge I gained with others. I taught and transferred the knowledge I gained, both in technical and conceptual terms, so that others could also develop. In addition, I am increasingly focusing on honing my soft skills, such as communication, collaboration, and leadership, which are very important in the professional world. I have also been actively participating in various communities, both technology-based and broader, such as Google Developer Student Clubs (GDSC) and several Discord communities. This has given me the opportunity to interact with many people, share ideas, and of course expand my network that can support my career journey ahead. These communities are not only a place to learn, but also a place to collaborate and contribute to the development of a better IT world.</p>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="timeline-item" id="timelineItem3">
+            <div class="timeline-circle">2025</div>
+            <div class="timeline-content">
+                <h4 class="fw-bold">Build My Own Startup</h4>
+                <p>After mastering basic web and app development, I started to develop my skills by creating websites for MSMEs around my neighbourhood. I saw an opportunity to help small businesses utilise technology to expand their market reach. In addition, I also created an online platform for MSMEs so that the benefits can be felt more widely. This project not only improved my technical skills, but also gave me the opportunity to make a positive impact on society and the business world.</p>
+            </div>
+        </div>
+
+        <!-- Call-to-action -->
+        <!-- (Optional: You can add a call-to-action button or any other content here) -->
+    </div>
+</section>
+
+<!-- timeline end -->
+
+<!-- Blog Section Start -->
+<div class="container blog-section m2" id="blog">
+    <h2 class="text-center mb-5 fw-bolder" id="blogTitle">My Blog</h2>
+    <div class="row g-4">
+      <!-- Blog Card 1 -->
+      <div class="col-md-6 col-lg-4" id="blogCard1">
+        <div class="card blog-card">
+          <img src="images/gdg.jpg" class="card-img-top" alt="Blog Thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Become a Google Developer Student For The Last 2 Years</h5>
+            <p class="card-text">Have you ever thought about joining an online community. Well, it’s fitting that here I will share my experience that has joined many online communities for about 2 years.</p>
+            <a href="https://medium.com/@farid.idnsolo/become-a-google-developer-student-for-the-last-2-years-412522a6afbb" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Blog Card 2 -->
+      <div class="col-md-6 col-lg-4" id="blogCard2">
+        <div class="card blog-card">
+          <img src="images/malay.png" class="card-img-top" alt="Blog Thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">First Time As Abroad Teacher </h5>
+            <p class="card-text"> I have a pretty interesting story not just teaching but now I have the opportunity to teach abroad and not only the moment of teaching abroad this is also my first time going abroad.</p>
+            <a href="https://medium.com/@farid.idnsolo/first-time-as-abroad-teac-f759783bd758" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Blog Card 3 -->
+      <div class="col-md-6 col-lg-4" id="blogCard3">
+        <div class="card blog-card">
+          <img src="images/undip.jpg" class="card-img-top" alt="Blog Thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Lecture For A Day</h5>
+            <p class="card-text">this time I will share a little of my experience at diponegoro university semarang not just visiting or being a student there but now I have the opportunity to teach at one of the famous universities in indonesia.</p>
+            <a href="https://medium.com/@farid.idnsolo/teaching-university-at-first-time-15c969521c49" target="_blank" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div>
+        <a href="blog.html">
+          <button class="btn btn-secondary" id="seeMoreBtn">See More</button>
+        </a>
+      </div>
+
+    </div>
+</div>
+
+  <!-- Blog Section End -->
+
+  <!-- sertifikat start -->
+  <section id="certificate">
+    <div class="container text-center">
+        <h2 class="my-4">My Certificates</h2>
+
+        <!-- Swiper Slider -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/serti/binus.png" alt="Certificate 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/serti/cloud.png" alt="Certificate 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/serti/idcamp.png" alt="Certificate 3">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/serti/issts.png" alt="Certificate 4">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/serti/nahyang.png" alt="Certificate 5">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/serti/sonder.png" alt="Certificate 5">
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+  <!-- sertifikat end -->
+
+
+
+  <!-- contact start -->
+  <section class="container py-5" id="contact">
+    <div class="row align-items-center">
+        <!-- Image Section -->
+        <div class="col-md-6 mb-4 mb-md-0 text-center" id="contactImage">
+            <img src="images/thumbnail.jpg" alt="Your Image" class="contact-img">
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col-md-6" id="contactInfo">
+            <h4 class="text-uppercase mb-3 text-md-start" id="contactTitle">Contact Me</h4>
+            <h1 class="fw-bold text-md-start" id="contactHeading">
+                Let's <span class="text-primary">Work Together!</span>
+            </h1>
+            <p class="mt-3 text-md-start" id="contactDescription">
+                Feel free to reach out to me through any of the following methods. I am always excited to discuss new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+
+            <!-- Email (Hanya Teks) -->
+            <p class="contact-email" id="contactEmail">
+                <i class="fas fa-envelope"></i> farid.IDNSOLO@gmail.com
+            </p>
+
+            <!-- Contact Links -->
+            <div class="d-flex flex-column gap-3 mt-3" id="contactLinks">
+                <a href="https://wa.me/+6289643665901" target="_blank" class="contact-item btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-farid-441680288/" target="_blank" class="contact-item btn-linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/faridbpn" target="_blank" class="contact-item btn-github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- contact end -->
+
+
+
+<!-- Footer Section start -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>About Me</h5>
+                <p>
+                    Junior Software Developer passionate to learn more about following technology update also make UI/UX design, number one person who love activities that make me can meet new people and make relationship with them. more spesific at full-stack dev and learn about data analysis and devops engineering as hobby.
+
+
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Follow Me</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.linkedin.com/in/muhammad-farid-441680288/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/faridbpn" target="_blank">GitHub</a></li>
+                    <li><a href="https://wa.me/+6289643665901"  target="_blank">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>&copy; 2025 Muhammad Farid. All Rights Reserved.</p>
+            <p>made with 💖</p>
+        </div>
+    </div>
+</footer>
+<!-- Footer end  -->
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+   var swiper = new Swiper('.swiper-container', {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
